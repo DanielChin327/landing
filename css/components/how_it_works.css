@@ -1,0 +1,55 @@
+.how-it-works H2{
+  align-items: center;
+  font-size: 30px;
+  text-align: center;
+}
+
+.internal-cards {
+
+  background: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.internal-cards p {
+  font-size: 12px;
+  line-height: 1.4;
+  opacity: .7;
+  margin-bottom: 0;
+  margin-top: 8px;
+}
+
+.internal-cards .internal-cards-infos {
+  padding: 16px;
+}
+
+.internal-cards-message{
+  padding:20px
+}
+
+.card {
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  width:200px;
+  height:200px;
+  display: flex;
+  flex-direction: column;
+  border: 1px black;
+  margin: 30px;
+}
+
+.card img {
+  height: 50%;
+  width: 50%;
+  object-fit: cover;
+  align-self: center;
+  margin: 5px
+}
+
+.card h3 {
+  margin: 10px;
+}
+
+.card p{
+  margin: 10px;
+}
